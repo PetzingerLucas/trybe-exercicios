@@ -1,0 +1,31 @@
+h2 {
+    color: skyblue;
+  }
+
+  body {
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+  }
+
+
+  h1 {
+    color: skyblue;
+    font-size: 65px;
+    font-family: sans-serif;
+  }
+
+  ul {
+    color: skyblue;
+  }
+
+  #link-google {
+    color: red;
+  }
+
+
+  p {
+    color: white;
+    font-size: 3em
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
