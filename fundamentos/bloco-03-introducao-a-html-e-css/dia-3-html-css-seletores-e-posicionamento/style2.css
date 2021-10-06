@@ -10,8 +10,12 @@ h1, p, li {
    text-align: center;
    
 }
+
+li{
+margin: auto;
+}
 li:hover{
-    background-color: rgb(245, 180, 234);
+    background-color: rgb(245, 180, 180);
 }
 
 .box{
