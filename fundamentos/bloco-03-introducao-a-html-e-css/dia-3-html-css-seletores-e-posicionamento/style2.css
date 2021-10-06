@@ -1,26 +1,37 @@
+body{
+    background-image: url(./2590162-pessoas-com-sites-vetor.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: center;
+}
+
+
 h1, p, li {
    text-align: center;
    
 }
 li:hover{
-    background-color: rgb(245, 180, 180);
+    background-color: rgb(245, 180, 234);
 }
 
 .box{
     padding: 0;
     max-width: 300px;
  
-    background-color:rgb(255, 224, 47);
+    background-color:#f5f1de;
     margin: auto;
     border-radius: 10%;
+    padding: 10px;
     }
     .box2{
         background-color:rgb(168, 70, 152);
         color: white;
         border-radius: 10%;
         max-width: 300px;
-        padding: 10;
+        padding: 10px;
         margin: auto;
+       margin-top: 15px;
+       
 
     }
 
