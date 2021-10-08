@@ -23,3 +23,23 @@ console.log(salary / salary);
 salary++;
 
 console.log(salary);
+
+//if - se
+//else - senão
+
+
+let trybe = 15;
+
+if (trybe >= 14 && trybe < 14.40) {
+    console.log("Esquenta")
+        //codigo
+} else if (trybe >= 16.30 && trybe < 17.50) {
+    console.log("Aula ao Vivo")
+        //outra condicao
+} else if (trybe >= 19.40 && trybe < 20) {
+    console.log("Fechamento")
+        //outra condicao
+} else {
+    console.log("Fora dos momentos sincronos")
+        //codigo
+}
