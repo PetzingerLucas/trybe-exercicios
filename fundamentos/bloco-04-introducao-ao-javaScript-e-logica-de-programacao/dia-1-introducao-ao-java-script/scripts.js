@@ -148,7 +148,7 @@ switch (trafficLight) {
         console.log = ("Valor não identificado")
 }
 
-let resultado = "lista"
+let resultado = "aprovado"
 
 switch (resultado) {
     case "aprovado":
@@ -160,4 +160,7 @@ switch (resultado) {
     case "lista":
         console.log("Você está na lista de espera")
         break
-};
+    default:
+        console.log("Não há dados")
+}
+///
