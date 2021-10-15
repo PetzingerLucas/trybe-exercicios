@@ -111,8 +111,52 @@ for (let i = 0; i < megaSenaNumbers.length; i++) {
         console.log("acertou");
     } else {
         console.log("não acertou");
-        console.log("meus numeros: " + myNumbers)
-        console.log("Sorteados: " + megaSenaNumbers)
+        console.log("meus numeros: " + myNumbers);
+        console.log("Sorteados: " + megaSenaNumbers);
     }
-
 }
+///
+
+for (let n = 1; n <= 5; n++) {
+    console.log('*****')
+}
+
+let tamanho = 5;
+let simbulo = '*';
+let espaco = '';
+
+for (i = 0; i <= tamanho; i += 1) {
+    console.log(espaco)
+    espaco = espaco + simbulo;
+}
+///
+
+
+let tamanho = 5;
+let simbulo = '*';
+let espaco = '';
+
+for (i = 0; i <= tamanho; i--) {
+    console.log(espaco)
+    espaco = espaco + simbulo;
+}
+
+
+
+let tamanho = 5;
+let simbulo = '*';
+let linha = '';
+let posicao = n;
+
+for (let lineIndex = 0; lineIndex < n; lineIndex += 1) {
+    for (let columnIndex = 0; columnIndex <= n; columnIndex += 1) {
+        if (columnIndex < inputPosition) {
+            inputLine = inputLine + ' ';
+        } else {
+            inputLine = inputLine + symbol;
+        }
+    }
+    console.log(inputLine);
+    inputLine = '';
+    inputPosition -= 1;
+};
