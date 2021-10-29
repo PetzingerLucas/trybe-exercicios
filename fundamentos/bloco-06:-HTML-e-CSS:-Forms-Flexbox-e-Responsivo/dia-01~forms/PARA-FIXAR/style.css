@@ -1,0 +1,16 @@
+body {
+  background-color: blue;
+}
+main {
+  background-color: white;
+  margin: 0 auto;
+  width: 300px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  
+}

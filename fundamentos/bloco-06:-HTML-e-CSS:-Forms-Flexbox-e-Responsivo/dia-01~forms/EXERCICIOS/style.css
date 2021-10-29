@@ -1,0 +1,29 @@
+fieldset{
+    margin: 0 auto;
+    width: 20%;
+    background-color: rgb(248, 244, 236);
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    min-width: 300px;
+}
+header{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    width: 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(248, 244, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(105, 95, 105);
+    min-width: 300px;
+}
+
+body{
+    background-color: blueviolet;
+}
+#teste{
+    background-color: tomato;
+     
+}
