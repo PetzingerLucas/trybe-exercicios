@@ -24,9 +24,9 @@ function atribuirPropriedade(elemento, propriedade, conteudo) {
   let element = (document.querySelector(elemento)[propriedade] = conteudo);
 }
 
-let lista = document.querySelector(".container");
-lista.addEventListener("click", function (e) {
-  for (let i of lista.children) {
+let list = document.querySelector(".container");
+list.addEventListener("click", function (e) {
+  for (let i of list.children) {
     i.classList.remove("tech");
   }
   e.target.className = "tech";
