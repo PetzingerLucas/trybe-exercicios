@@ -65,7 +65,7 @@ const books = [
 
   
 const authorWith3DotsOnName = (listbooks) =>{
- const author = listbooks.find(books => books.author.name === 'J. R. R. Tolkien')
+ const author = listbooks.find(books => books.author.name.startsWith('J. R. R.'))
  return [author].map(books => books.name)
 }
 
