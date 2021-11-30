@@ -1,5 +1,10 @@
 TOKEN MASTER GITHUB
 github-recovery-codes.txt
 github-recovery-codes.txt
+.eslintrc.json
+node_modules/
+package-lock.json
+package.json
+
 
 

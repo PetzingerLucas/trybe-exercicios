@@ -113,24 +113,24 @@ console.log(seller); // Casas de Minas
 
 
 // Dessa forma, conseguimos extrair o valor da propriedade que precisamos acessar com muito menos código, atribuindo este valor à variáveis. Vale lembrar também que podemos adicionar quantas propriedades forem necessárias dentro das chaves, basta seguirmos a sintaxe da desestruturação de objetos.
-// Outro truque legal dessa feature é que você pode reatribuir o nome da propriedade que deseja acessar ao declará-la como uma variável. Acompanhe o exemplo abaixo.
-const student = {
-    a: 'Maria',
-    b: 'Turma B',
-    c: 'Matematica',
-  };
+// // Outro truque legal dessa feature é que você pode reatribuir o nome da propriedade que deseja acessar ao declará-la como uma variável. Acompanhe o exemplo abaixo.
+// const student = {
+//     a: 'Maria',
+//     b: 'Turma B',
+//     c: 'Matematica',
+//   };
 
 //   As propriedades do objeto student não são nada descritivas, não é mesmo? Se fossemos desestruturar esse objeto, as variáveis que seriam criadas ao extrair as propriedades de students teriam nomes sem significado...pensando nisso, podemos trocar o nome da variável ao fazermos a desestruturação:
 
-  const student = {
-    a: 'Maria',
-    b: 'Turma B',
-    c: 'Matematica',
-  };
+  // const student = {
+  //   a: 'Maria',
+  //   b: 'Turma B',
+  //   c: 'Matematica',
+  // };
   
-  const { a: name, b: classAssigned, c: subject } = student;
+  const { a: names, b: classAssigned, c: subject } = student;
   
-  console.log(name); // Maria
+  console.log(names); // Maria
   console.log(classAssigned); // Turma B
   console.log(subject); // Matemática
 
@@ -138,13 +138,13 @@ const student = {
 //   Nesse exemplo, informamos qual a propriedade que gostaríamos de acessar e a declaramos em uma nova variável seguindo a sintaxe: { propriedade:nomeVariável } = objeto . Essa forma de acessar um valor de um objeto e atribuí-lo a uma variável é equivalente ao que temos abaixo:
 // Copiar
 
-const student = {
-  a: 'Maria',
-  b: 'Turma B',
-  c: 'Matematica',
-};
-const name = student.a;
-console.log(name); // Maria
+// const student = {
+//   a: 'Maria',
+//   b: 'Turma B',
+//   c: 'Matematica',
+// };
+// const name = student.a;
+// console.log(name); // Maria
 
 
 // Você deve estar se perguntando: o que acontece quando tento acessar um campo inexistente? Experimente fazer esse teste! Como sabemos, o Javascript não vai conseguir fazer essa associação porque esse campo não existe e a variável receberá o valor undefined .
@@ -200,7 +200,8 @@ secondElement(firstElement)
 
 // 2 - A seguir, temos alguns valores que estão descritos em variáveis incoerentes. Através da desestruturação de arrays, corrija os valores das variáveis.
 
-let comida = 'gato';
+let comida = 'gato'
+;
 let animal = 'água';
 let bebida = 'arroz';
 
